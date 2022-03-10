@@ -1,38 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap");
+
 .App {
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(27, 27, 27);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.iphone13pro-content {
+  background-color: #fff;
+  background-image: url(./images/iphone_13_pro.png);
+  background-position: bottom;
+  background-size: 600px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40em;
+  padding-top: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.iphone13pro-content img {
+  width: 300px;
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.iphone13pro_slogan {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.blue-button {
+  margin: auto;
+  background-color: #0071e3;
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.blue-button span {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+/* ------------- iPhone SE -------------- */
+
+.iphonese-content {
+  display: flex;
+  flex-direction: row;
+  background-color: #fbfbfd;
+  margin: 30px auto;
+  width: 90%;
+  height: 40em;
+  border-radius: 10px;
+}
+
+.iphone-image {
+  width: 50%;
+  background-image: url(./images/iphone_se.jpeg);
+  background-position: 50%;
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+
+.iphone_info {
+  width: auto;
   display: flex;
   flex-direction: column;
+  margin: auto;
+}
+
+.iphone_info img {
+  width: 250px;
+}
+
+.iphonese_slogan {
+  width: fit-content;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.iphonese_slogan span {
+  float: left;
+  text-align: left;
+  width: fit-content;
+}
+
+.iphonese_buttons {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.iphonese_buttons :nth-child(2) {
+  margin-left: 20px;
+}
+
+.bordered-button {
+  margin: 0;
+  background-color: transparent;
+  width: 200px;
+  height: 40px;
+  border: 2px solid #0071e3;
+  border-radius: 50px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bordered-button span {
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ------------- MacBook Pro -------------- */
+.macbookpro-content {
+  background-color: #fff;
+  background-image: url(./images/macbook_pro.jpeg);
+  background-position: 50% 90%;
+  background-size: 60em;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 55em;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 30px auto;
+}
+
+.macbookpro-content img {
+  width: 300px;
+  margin-top: 50px;
+}
+
+.macbookpro_slogan {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.macbookpro_description {
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+}
+
+.macbookpro_buttons {
+  width: 450px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+/* ------------- iPad -------------- */
+
+.ipad-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: auto;
+  width: 90%;
+  height: 60em;
+  border-radius: 10px;
+
+  background-image: url(./images/ipad_air.png);
+  background-position: 100% -10em;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.ipad-content img {
+  margin-top: 20em;
+  width: 180px;
+}
+
+.ipad_slogan {
+  width: fit-content;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.ipad_slogan span {
+  float: left;
+  text-align: left;
+  width: fit-content;
+}
+
+.ipad_buttons {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.ipad_buttons :nth-child(2) {
+  margin-left: 20px;
+}
+
+.ipad-content img,
+.ipad_slogan,
+.ipad_buttons {
+  margin-left: 200px;
 }

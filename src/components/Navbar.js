@@ -1,17 +1,17 @@
 import React from "react";
 import './Navbar.css';
 
-import apple_logo from '../images/apple.svg';
-import store from '../images/store-text.svg';
-import mac from '../images/mac-text.svg';
-import ipad from '../images/ipad-text.svg';
-import iphone from '../images/iphone-text.svg';
-import watch from '../images/watch-text.svg';
-import airpods from '../images/airpods-text.svg';
-import tvhome from '../images/tv-home-text.svg';
-import onlyonapple from '../images/onlyonapple.svg';
-import accessories from '../images/accessories-text.svg';
-import support from '../images/support-text.svg';
+import apple_logo from '../images/apple_nav/apple.svg';
+import store from '../images/apple_nav/store-text.svg';
+import mac from '../images/apple_nav/mac-text.svg';
+import ipad from '../images/apple_nav/ipad-text.svg';
+import iphone from '../images/apple_nav/iphone-text.svg';
+import watch from '../images/apple_nav/watch-text.svg';
+import airpods from '../images/apple_nav/airpods-text.svg';
+import tvhome from '../images/apple_nav/tv-home-text.svg';
+import onlyonapple from '../images/apple_nav/onlyonapple.svg';
+import accessories from '../images/apple_nav/accessories-text.svg';
+import support from '../images/apple_nav/support-text.svg';
 
 
 export default function Navbar() {
