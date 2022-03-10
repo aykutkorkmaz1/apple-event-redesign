@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 import iphone13pro_logo from './images/logos_with_apple/no_sub/iphone13pro.svg';
 import iphonese_logo from './images/logos_with_apple/no_sub/iphone_se.svg';
@@ -78,6 +79,8 @@ function App() {
           </div>
         </div>
     </div>
+
+    <Footer />
 
     </div>
   );
