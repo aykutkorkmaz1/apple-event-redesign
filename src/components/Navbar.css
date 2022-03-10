@@ -29,12 +29,29 @@
   height: 44px;
   color: rgb(190, 190, 190);
   display: inline-block;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 1em;
+  padding-right: 1em;
   transition: 0.3s;
 }
 
 .navbar-item:hover {
   opacity: 100%;
   transition: 0.3s;
+}
+
+.search {
+  height: 44px;
+  width: 15px;
+  background-image: url(../images/apple_nav/search.svg);
+  background-size: 50% 88px;
+  background-position: 8px 0px;
+  background-repeat: no-repeat;
+}
+
+.bag {
+  height: 44px;
+  width: 15px;
+  background-image: url(../images/apple_nav/bag.svg);
+  background-size: 50% 44px;
+  background-repeat: no-repeat;
 }

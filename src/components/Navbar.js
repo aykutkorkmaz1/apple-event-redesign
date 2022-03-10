@@ -19,16 +19,18 @@ export default function Navbar() {
         <div className="navbar-content">
             <ul className="navbar">
                 <li className="navbar-item image"> <img src={apple_logo} /> </li>
-                <li className="navbar-item"><img src={store} /></li>
-                <li className="navbar-item"> <img src={mac} /> </li>
-                <li className="navbar-item"> <img src={ipad} /> </li>
-                <li className="navbar-item"> <img src={iphone} /> </li>
-                <li className="navbar-item"> <img src={watch} /> </li>
-                <li className="navbar-item"> <img src={airpods} /> </li>
-                <li className="navbar-item"> <img src={tvhome} /> </li>
-                <li className="navbar-item"> <img src={onlyonapple} /> </li>
-                <li className="navbar-item"> <img src={accessories} /> </li>
-                <li className="navbar-item"> <img src={support} /> </li>
+                <li className="navbar-item store"><img src={store} /></li>
+                <li className="navbar-item mac"> <img src={mac} /> </li>
+                <li className="navbar-item ipad"> <img src={ipad} /> </li>
+                <li className="navbar-item iphone"> <img src={iphone} /> </li>
+                <li className="navbar-item watch"> <img src={watch} /> </li>
+                <li className="navbar-item airpods"> <img src={airpods} /> </li>
+                <li className="navbar-item tvhome"> <img src={tvhome} /> </li>
+                <li className="navbar-item onlyonapple"> <img src={onlyonapple} /> </li>
+                <li className="navbar-item accessories"> <img src={accessories} /> </li>
+                <li className="navbar-item support"> <img src={support} /> </li>
+                <li className="navbar-item search"></li>
+                <li className="navbar-item bag"></li>
             </ul>
         </div>
     );
