@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -8,6 +8,8 @@ import iphone13pro_logo from './images/logos_with_apple/no_sub/iphone13pro.svg';
 import iphonese_logo from './images/logos_with_apple/no_sub/iphone_se.svg';
 import macbookpro_logo from './images/logos_with_apple/no_sub/mac.svg';
 import ipad_logo from './images/logos_with_apple/no_sub/ipad.svg';
+
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -45,6 +47,7 @@ function App() {
     </div>
 
     <div className='macbookpro-content'>
+      <div className='macbookpro-main'>
       <img src={macbookpro_logo} />
       <div className='macbookpro_slogan'>Supercharged for pros.</div>
       <div className='macbookpro_description'>
@@ -61,9 +64,11 @@ function App() {
             <span>View pricing</span>
           </div>
         </div>
+      </div>
     </div>
 
     <div className='ipad-content'>
+      <div className='ipad-main'>
       <img src={ipad_logo} />
       <div className='ipad_slogan'>
           <span>Light. Bright.</span> <br />
@@ -78,6 +83,7 @@ function App() {
             <span>View pricing</span>
           </div>
         </div>
+      </div>
     </div>
 
     <Footer />

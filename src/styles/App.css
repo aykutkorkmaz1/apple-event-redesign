@@ -8,7 +8,7 @@
 
 .iphone13pro-content {
   background-color: #fff;
-  background-image: url(./images/iphone_13_pro.png);
+  background-image: url(../images/iphone_13_pro.png);
   background-position: bottom;
   background-size: 600px;
   background-repeat: no-repeat;
@@ -56,28 +56,28 @@
   flex-direction: row;
   background-color: #fbfbfd;
   margin: 30px auto;
-  width: 90%;
+  width: 70%;
   height: 40em;
   border-radius: 10px;
 }
 
 .iphone-image {
   width: 50%;
-  background-image: url(./images/iphone_se.jpeg);
+  background-image: url(../images/iphone_se.jpeg);
   background-position: 50%;
   background-size: 400px;
   background-repeat: no-repeat;
 }
 
 .iphone_info {
-  width: auto;
+  width: 50%;
   display: flex;
   flex-direction: column;
   margin: auto;
 }
 
 .iphone_info img {
-  width: 250px;
+  width: 230px;
 }
 
 .iphonese_slogan {
@@ -124,18 +124,18 @@
 /* ------------- MacBook Pro -------------- */
 .macbookpro-content {
   background-color: #fff;
-  background-image: url(./images/macbook_pro.jpeg);
-  background-position: 50% 90%;
-  background-size: 60em;
+  background-image: url(../images/macbook_pro.jpeg);
+  background-position: 50% 85%;
+  background-size: 70%;
   background-repeat: no-repeat;
-  width: 90%;
+  width: 70%;
   height: 55em;
   border-radius: 10px;
   background-color: #fff;
   margin: 30px auto;
 }
 
-.macbookpro-content img {
+.macbookpro-main img {
   width: 300px;
   margin-top: 50px;
 }
@@ -163,22 +163,31 @@
 /* ------------- iPad -------------- */
 
 .ipad-content {
-  display: flex;
-  flex-direction: column;
   background-color: #fff;
   margin: auto;
-  width: 90%;
+  width: 70%;
   height: 60em;
   border-radius: 10px;
 
-  background-image: url(./images/ipad_air.png);
-  background-position: 100% -10em;
+  background-image: url(../images/ipad_air.png);
+  background-position: 100%;
   background-size: 60%;
   background-repeat: no-repeat;
+
+  position: relative;
 }
 
-.ipad-content img {
-  margin-top: 20em;
+.ipad-main {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.ipad-main img {
+  float: left;
   width: 180px;
 }
 
@@ -203,10 +212,4 @@
 
 .ipad_buttons :nth-child(2) {
   margin-left: 20px;
-}
-
-.ipad-content img,
-.ipad_slogan,
-.ipad_buttons {
-  margin-left: 200px;
 }
