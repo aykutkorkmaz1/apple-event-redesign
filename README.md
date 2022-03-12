@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+![](readme-banner.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#  apple.com Redesign Project
 
-## Available Scripts
+<h3><strong>Disclaimer</strong></h3>
+This project using images from apple.com and doesn't makes any income. <br>
+Images are copyrighted by Apple, were used in this project. Any income or selling doesn't establish on this project.
 
-In the project directory, you can run:
+#
 
-### `npm start`
+#
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Tech](https://img.shields.io/badge/reactJS-0071e3?logo=react)
+![iOS](https://img.shields.io/badge/coming_soon-0071e3?logo=ios)
+![Android](https://img.shields.io/badge/in_progress-0071e3?logo=android)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![GitHub branch checks state](https://img.shields.io/github/checks-status/aykutkorkmaz1/apple-redesign/main?label=branch%20Check&color=31ab2b)
+![GitHub deployments](https://img.shields.io/github/deployments/aykutkorkmaz1/apple-redesign/Production?label=deploy%20status&color=31ab2b)
+![GitHub last commit](https://img.shields.io/github/last-commit/aykutkorkmaz1/apple-redesign?color=31ab2b)
+![GitHub issues](https://img.shields.io/github/issues/aykutkorkmaz1/apple-redesign?color=31ab2b)\
+![GitHub repo size](https://img.shields.io/github/repo-size/aykutkorkmaz1/apple-redesign)
+![Complete Rate](https://img.shields.io/badge/complete_rate-_30_%_-9904d9)
 
-### `npm test`
+#
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> <h3><strong>License CC BY-NC-SA 4.0</strong></h3>
+> © 2022. This work is licensed under a CC BY 4.0 license.
 
-### `npm run build`
+#
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3><strong>Site Map</strong></h3>
+<ul>
+  <li><strong> Store</strong></li>
+  <li><strong> Mac</strong></li>
+  <li><strong> iPad</strong></li>
+  <li><strong> iPhone</strong></li>
+  <li><strong> Watch</strong></li>
+  <li><strong> AirPods</strong></li>
+  <li><strong> Only On Apple</strong></li>
+  <li><strong> Accessories</strong></li>
+  <li><strong> Support</strong></li>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</ul>
