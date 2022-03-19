@@ -3,37 +3,40 @@
 .App {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(255, 255, 255);
 }
 
-.iphone13pro-content {
-  background-color: #fff;
+.main-iphone13pro {
   background-image: url(../images/iphone_13_pro.png);
   background-position: bottom;
-  background-size: 600px;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 40em;
-  padding-top: 70px;
+  background-size: 50em;
+  width: auto;
+  height: 43em;
+  padding-top: 5em;
 }
 
-.iphone13pro-content img {
+.main-iphone13pro img {
   width: 300px;
-  margin-top: 20px;
+  margin: auto;
+  padding-bottom: 15px;
 }
 
-.iphone13pro_slogan {
-  font-size: 36px;
+.main-page-slogan {
+  font-size: 28px;
   font-weight: 500;
 }
 
-.description {
-  margin-top: 15px;
-  margin-bottom: 30px;
+.main-page-desc {
+  max-width: 60%;
+  margin: auto;
   font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
-.blue-button {
+.main-blue-button {
   margin: auto;
   background-color: #0071e3;
   width: 200px;
@@ -42,174 +45,75 @@
   align-items: center;
 }
 
-.blue-button span {
+.main-blue-button span {
   color: #fff;
   font-weight: 500;
   font-size: 18px;
   line-height: 40px;
 }
 
-/* ------------- iPhone SE -------------- */
-
-.iphonese-content {
-  display: flex;
-  flex-direction: row;
-  background-color: #fbfbfd;
-  margin: 30px auto;
-  width: 70%;
-  height: 40em;
-  border-radius: 10px;
-}
-
-.iphone-image {
-  width: 50%;
+.main-iphonese {
+  background-color: rgba(250, 250, 250, 255);
   background-image: url(../images/iphone_se.jpeg);
-  background-position: 50%;
-  background-size: 400px;
+  background-position: bottom;
   background-repeat: no-repeat;
+  background-size: 50em;
+  width: auto;
+  height: 40em;
+  padding-top: 7em;
 }
 
-.iphone_info {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-}
-
-.iphone_info img {
+.main-iphonese img {
   width: 230px;
+  margin: auto;
+  padding-bottom: 15px;
 }
 
-.iphonese_slogan {
-  width: fit-content;
-  margin-top: 20px;
-  font-size: 24px;
-  font-weight: 500;
+.main-macbookpro {
+  background-color: #fff;
+  background-image: url(../images/macbook_pro.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 60em;
+  width: auto;
+  height: 45em;
+  padding-top: 7em;
 }
 
-.iphonese_slogan span {
-  float: left;
-  text-align: left;
-  width: fit-content;
+.main-macbookpro img {
+  width: 280px;
+  margin: auto;
+  padding-bottom: 15px;
 }
 
-.iphonese_buttons {
-  width: fit-content;
-  display: flex;
-  flex-direction: row;
-  margin-top: 30px;
+.main-ipad {
+  background-color: #fff;
+  background-image: url(../images/ipad_air.png);
+  background-position: center 15em;
+  background-repeat: no-repeat;
+  background-size: 60em;
+  width: auto;
+  height: 30em;
+  padding-top: 10em;
 }
 
-.iphonese_buttons :nth-child(2) {
-  margin-left: 20px;
-}
-
-.bordered-button {
-  margin: 0;
-  background-color: transparent;
+.main-blue-button-ipad {
+  margin: auto;
+  background-color: #0071e3;
   width: 200px;
   height: 40px;
-  border: 2px solid #0071e3;
   border-radius: 50px;
   align-items: center;
 }
 
-.bordered-button span {
-  color: #000;
+.main-blue-button-ipad span {
+  color: #fff;
   font-weight: 500;
   font-size: 18px;
   line-height: 40px;
 }
 
-/* ------------- MacBook Pro -------------- */
-.macbookpro-content {
-  background-color: #fff;
-  background-image: url(../images/macbook_pro.jpeg);
-  background-position: 50% 85%;
-  background-size: 70%;
-  background-repeat: no-repeat;
-  width: 70%;
-  height: 55em;
-  border-radius: 10px;
-  background-color: #fff;
-  margin: 30px auto;
-}
-
-.macbookpro-main img {
-  width: 300px;
-  margin-top: 50px;
-}
-
-.macbookpro_slogan {
-  font-size: 36px;
-  font-weight: 500;
-  margin-bottom: 30px;
-}
-
-.macbookpro_description {
-  font-size: 20px;
+.main-ipad img {
+  width: 250px;
   margin: auto;
-  width: 50%;
-}
-
-.macbookpro_buttons {
-  width: 450px;
-  padding-top: 30px;
-  display: flex;
-  justify-content: space-evenly;
-  margin: auto;
-}
-
-/* ------------- iPad -------------- */
-
-.ipad-content {
-  background-color: #fff;
-  margin: auto;
-  width: 70%;
-  height: 60em;
-  border-radius: 10px;
-
-  background-image: url(../images/ipad_air.png);
-  background-position: 100%;
-  background-size: 60%;
-  background-repeat: no-repeat;
-
-  position: relative;
-}
-
-.ipad-main {
-  position: absolute;
-  top: 30%;
-  left: 10%;
-  float: left;
-  display: flex;
-  flex-direction: column;
-}
-
-.ipad-main img {
-  float: left;
-  width: 180px;
-}
-
-.ipad_slogan {
-  width: fit-content;
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.ipad_slogan span {
-  float: left;
-  text-align: left;
-  width: fit-content;
-}
-
-.ipad_buttons {
-  width: fit-content;
-  display: flex;
-  flex-direction: row;
-  margin-top: 30px;
-}
-
-.ipad_buttons :nth-child(2) {
-  margin-left: 20px;
 }
