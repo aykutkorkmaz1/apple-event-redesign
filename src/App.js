@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import iphone13pro_logo from './images/logos_with_apple/no_sub/iphone13pro.svg';
 import iphonese_logo from './images/logos_with_apple/no_sub/iphone_se.svg';
 import macbookpro_logo from './images/logos_with_apple/no_sub/mac.svg';
-import ipad_logo from './images/logos_with_apple/no_sub/ipad.svg';
+import ipad_logo from './images/logos_with_apple/no_sub/ipad_air_wh.svg';
 
 import { Link } from 'react-router-dom';
 
@@ -57,8 +57,8 @@ function App() {
       <div className="main-ipad">
           <div className="align-items">
             <img src={ipad_logo} />
-            <span className="main-page-slogan">Light. Bright. Full of might.</span>
-            <span className="main-page-desc">
+            <span className="main-page-slogan-ipad">Light. Bright. Full of might.</span>
+            <span className="main-page-desc-ipad">
             Now powered by Apple M1 chip.
             </span>
              <div className='main-blue-button'>
@@ -67,7 +67,13 @@ function App() {
           </div>
       </div>
 
-      
+      <div className='main-box-2'>
+        <div className='main-mac-display'>
+
+        </div>
+      </div>
+
+    <Footer />      
 
     </div>
   );

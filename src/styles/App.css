@@ -10,7 +10,7 @@
   background-image: url(../images/iphone_13_pro.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 50em;
+  background-size: 40em;
   width: auto;
   height: 43em;
   padding-top: 5em;
@@ -77,7 +77,8 @@
   background-size: 60em;
   width: auto;
   height: 45em;
-  padding-top: 7em;
+  margin-top: 7em;
+  margin-bottom: 7em;
 }
 
 .main-macbookpro img {
@@ -88,13 +89,13 @@
 
 .main-ipad {
   background-color: #fff;
-  background-image: url(../images/ipad_air.png);
-  background-position: center 15em;
+  background-image: url(../images/180f1315.png);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 60em;
+  background-size: 100%;
   width: auto;
   height: 30em;
-  padding-top: 10em;
+  padding-top: 5em;
 }
 
 .main-blue-button-ipad {
@@ -114,6 +115,22 @@
 }
 
 .main-ipad img {
-  width: 250px;
+  width: 200px;
   margin: auto;
+}
+
+.main-page-slogan-ipad {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.main-page-desc-ipad {
+  color: #fff;
+  max-width: 60%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
