@@ -22,7 +22,7 @@ export default function Navbar() {
                 <Link to="/">
                     <li className="navbar-item image"> <img src={apple_logo} /> </li>
                 </Link>
-                <Link to="/support">
+                <Link to="/store">
                     <li className="navbar-item store"><img src={store} /></li>
                 </Link>
                 <Link to="/mac">
