@@ -16,14 +16,11 @@ Images are copyrighted by Apple, were used in this project. Any income or sellin
 
 ![GitHub branch checks state](https://img.shields.io/github/checks-status/aykutkorkmaz1/apple-redesign/main?label=branch%20Check&color=31ab2b)
 ![GitHub deployments](https://img.shields.io/github/deployments/aykutkorkmaz1/apple-redesign/Production?label=deploy%20status&color=31ab2b)
-![GitHub last commit](https://img.shields.io/github/last-commit/aykutkorkmaz1/apple-redesign?color=31ab2b)
-![GitHub issues](https://img.shields.io/github/issues/aykutkorkmaz1/apple-redesign?color=31ab2b)\
-![GitHub repo size](https://img.shields.io/github/repo-size/aykutkorkmaz1/apple-redesign)
-
-#
-
-> <h3><strong>License CC BY-NC-SA 4.0</strong></h3>
-> © 2022. This work is licensed under a CC BY 4.0 license.
+![GitHub repo size](https://img.shields.io/github/repo-size/aykutkorkmaz1/devcon)
+![GitHub issues](https://img.shields.io/github/issues-raw/aykutkorkmaz1/devcon)
+![GitHub issues](https://img.shields.io/github/issues/aykutkorkmaz1/devcon)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/aykutkorkmaz1/devcon) <br />
+![GitHub forks](https://img.shields.io/github/forks/aykutkorkmaz1/devcon?style=social)
 
 #
 
