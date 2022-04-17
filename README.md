@@ -19,7 +19,6 @@ Images are copyrighted by Apple, were used in this project. Any income or sellin
 ![GitHub last commit](https://img.shields.io/github/last-commit/aykutkorkmaz1/apple-redesign?color=31ab2b)
 ![GitHub issues](https://img.shields.io/github/issues/aykutkorkmaz1/apple-redesign?color=31ab2b)\
 ![GitHub repo size](https://img.shields.io/github/repo-size/aykutkorkmaz1/apple-redesign)
-![Complete Rate](https://img.shields.io/badge/complete_rate-_30_%_-9904d9)
 
 #
 
