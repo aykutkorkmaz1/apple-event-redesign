@@ -8,6 +8,7 @@
 
 Link {
   text-decoration: none;
+  display: none;
 }
 
 .navbar-content {
@@ -23,7 +24,8 @@ Link {
 }
 
 .navbar {
-  margin: 0 auto;
+  opacity: 90%;
+  margin: auto;
   list-style: none;
   width: 100%;
   justify-content: space-between;

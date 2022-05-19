@@ -20,7 +20,7 @@ function App() {
           <div className="align-items">
             <img src={iphone13pro_logo} />
             <span className="main-page-slogan">Oh. So. Pro.</span>
-            <span className="main-page-desc">From $42.62/mo for 24 mo. or $999 before trade-in.</span>
+            <span className="main-page-desc">Your new portable photography machine.</span>
              <div className='main-blue-button'>
               <span>Learn more</span>
             </div>
@@ -30,8 +30,10 @@ function App() {
       <div className="main-iphonese">
           <div className="align-items">
             <img src={iphonese_logo} />
-            <span className="main-page-slogan">Hercules in your pocket.</span>
-            <span className="main-page-desc">Just starting from $429.</span>
+            <span className="main-page-desc">
+              Superpowerful A15 Bionic chip. Superstar camera.<br/>
+              Big-time battery life. All at an incredible price.
+            </span>
              <div className='main-blue-button'>
               <span>Learn more</span>
             </div>
@@ -43,10 +45,7 @@ function App() {
             <img src={macbookpro_logo} />
             <span className="main-page-slogan">Supercharged for pros.</span>
             <span className="main-page-desc">
-            The most powerful MacBook Pro ever is here.
-            With the blazing-fast M1 Pro or M1 Max chip you get groundbreaking performance and amazing battery life.
-            Add to that a stunning Liquid Retina XDR display, the best camera and audio ever in a Mac notebook,
-            and all the ports you need. The first notebook of its kind, this MacBook Pro is a beast.
+            Everything that pros needs.
             </span>
              <div className='main-blue-button'>
               <span>Learn more</span>

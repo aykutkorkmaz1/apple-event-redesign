@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap");
 
+:root {
+
+}
+
 /* ------------------ List ------------------ */
 .page-iphone-content {
   font-family: "Roboto", sans-serif;
@@ -15,31 +19,36 @@
   flex-direction: row;
   justify-content: space-evenly;
   margin: auto auto;
-  padding-top: 60px;
+  padding-top: 44px;
 }
 
 .list-item {
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px;
+  padding: 10px 10px 20px 10px;
+  background-color:#fff;
+  border-radius: 3px;
+
+  transition: 0.1s;
+}
+
+.list-item:hover {
+  background-color:#f5a80e;
+  filter: invert(100%);
+  transition: 0.3s;
 }
 
 .model-list-phone-name {
   font-size: 13px;
   font-weight: 400;
   color: #000;
-  transition: 0.3s;
-  border-bottom: 1px solid transparent;
-}
-
-.model-list-phone-name:hover {
-  color: #0071e3;
-  transition: 0.3s;
-  border-bottom: 1px solid #0071e3;
+  transition: 0.1s;
 }
 
 .list-item img {
-  height: 70px;
+  transition: 0.1s;
+  height: 60px;
+  filter: invert(0);
 }
 
 /* ------------------ universal presentation properties ------------------ */
@@ -53,8 +62,8 @@
 .iphone-blue-button {
   margin: auto;
   background-color: #0071e3;
-  width: 200px;
-  height: 40px;
+  width: 170px;
+  height: 30px;
   border-radius: 50px;
   align-items: center;
 }
@@ -62,8 +71,8 @@
 .iphone-blue-button span {
   color: #fff;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 40px;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .align-items {
@@ -82,16 +91,13 @@
   background-repeat: no-repeat;
   background-size: 50em;
   background-position: 50% 18em;
-
-  border-bottom: 1px solid #666;
-  border-top: 1px solid #666;
 }
 
 .page-iphone13pro img {
   width: 18em;
   margin: auto;
 }
-/* ------------------- iPhone 13 Pro ----------------- */
+/* ------------------- iPhone 13 ----------------- */
 
 .page-iphone13 {
   margin-top: 2em;
@@ -103,9 +109,6 @@
   background-repeat: no-repeat;
   background-size: 50em;
   background-position: 50% 18em;
-
-  border-bottom: 1px solid #666;
-  border-top: 1px solid #666;
 }
 
 .page-iphone13 img {
@@ -113,7 +116,7 @@
   margin: auto;
 }
 
-/* ------------------- iPhone 13 Pro ----------------- */
+/* ------------------- iPhone SE ----------------- */
 .page-iphonese {
   margin-top: 2em;
   width: 100%;
@@ -124,9 +127,6 @@
   background-repeat: no-repeat;
   background-size: 40em;
   background-position: 50% 17em;
-
-  border-bottom: 1px solid #666;
-  border-top: 1px solid #666;
 }
 
 .page-iphonese img {
