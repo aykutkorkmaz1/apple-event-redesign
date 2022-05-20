@@ -19,9 +19,9 @@
   background-image: url(../images/iphone_13_pro.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 40em;
+  background-size: 38em;
   width: auto;
-  height: 43em;
+  height: 40em;
   padding-top: 5em;
 }
 
@@ -68,10 +68,10 @@
   background-image: url(../images/iphone_se.jpeg);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 50em;
+  background-size: 45em;
   width: auto;
-  height: 35em;
-  padding-top: 7em;
+  height: 30em;
+  padding-top: 5em;
 }
 
 .main-iphonese img {
@@ -89,8 +89,8 @@
   background-size: 60em;
   width: auto;
   height: 45em;
-  margin-top: 7em;
-  margin-bottom: 7em;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 .main-macbookpro img {
@@ -107,9 +107,9 @@
   background-image: url(../images/ipad-main-page.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 43em;
+  background-size: 50em;
   width: auto;
-  height: 30em;
+  height: 35em;
   padding-top: 5em;
 }
 

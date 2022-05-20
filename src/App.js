@@ -31,8 +31,7 @@ function App() {
           <div className="align-items">
             <img src={iphonese_logo} />
             <span className="main-page-desc">
-              Superpowerful A15 Bionic chip. Superstar camera.<br/>
-              Big-time battery life. All at an incredible price.
+              Hercules in your pocket.
             </span>
              <div className='main-blue-button'>
               <span>Learn more</span>

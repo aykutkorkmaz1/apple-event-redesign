@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="navbar-content">
             <ul className="navbar">
                 <Link to="/">
-                    <li className="navbar-item image"> <img src={apple_logo} /> </li>
+                    <li className="navbar-item apple-logo-nav"> <img src={apple_logo} /> </li>
                 </Link>
                 <Link to="/store">
                     <li className="navbar-item store"><img src={store} /></li>
