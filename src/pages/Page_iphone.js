@@ -101,6 +101,9 @@ export default function Iphone () {
                             <span>Learn more</span>
                         </div>
                     </div>
+
+                    <div className="iphone-comparison-divider"></div>
+
                     <div className="iphone-comparison-features">
                         <div className="comparison-item">
                             <span className="comparison-main">
@@ -158,13 +161,16 @@ export default function Iphone () {
                             <span>Learn more</span>
                         </div>
                     </div>
+
+                    <div className="iphone-comparison-divider"></div>
+
                     <div className="iphone-comparison-features">
                         <div className="comparison-item">
                             <span className="comparison-main">
                                 6.1" or 5.4"
                             </span>
                             <span className="comparison-sub">
-                                All-screen OLED display
+                                All-screen <br /> OLED display
                             </span>
                         </div>
                         <div className="comparison-item">
@@ -215,6 +221,9 @@ export default function Iphone () {
                             <span>Learn more</span>
                         </div>
                     </div>
+
+                    <div className="iphone-comparison-divider"></div>
+
                     <div className="iphone-comparison-features">
                         <div className="comparison-item">
                             <span className="comparison-main">
@@ -269,13 +278,16 @@ export default function Iphone () {
                             <span>Learn more</span>
                         </div>
                     </div>
+
+                    <div className="iphone-comparison-divider"></div>
+
                     <div className="iphone-comparison-features">
                         <div className="comparison-item">
                             <span className="comparison-main">
                                 4.7"
                             </span>
                             <span className="comparison-sub">
-                                LCD Display
+                                LCD <br /> Display
                             </span>
                         </div>
                         <div className="comparison-item">

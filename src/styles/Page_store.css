@@ -8,7 +8,6 @@
 
 .store_main {
     background-color: #fff;
-    width: 100%;
     text-align: center;
 }
 
@@ -29,20 +28,20 @@
 
 
 .most_loved_products {
-    margin: auto;
+    
     padding-bottom: 4em;
     max-width: 1100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    float: left;
 }
 
 .sector-header {
-    margin-left: 20px;
     margin-bottom: 30px;
     margin-top: 30px;
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 500;
     width: 100%;
     text-align: left;
 }
@@ -54,7 +53,7 @@
     flex-direction: column;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px -10px #000000;
+    box-shadow: 2px 2px 15px -10px #000000;
 }
 
 .type_1_image img {
@@ -67,15 +66,14 @@
 }
 
 .new_indicator {
-    padding-top: 15px;
     color: #FF9B31;
     font-size: 15px;
     font-weight: 500;
 }
 
 .type_1_item_name {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .storage_list {
@@ -91,8 +89,9 @@
 }
 
 .type_1_price {
-    font-size: 18px;
-    padding-top: 20px;
+    font-size: 16px;
+    padding-top: 10px;
+    color: #606060;
 }
 
 .store_buy_btn {
@@ -144,7 +143,7 @@
     flex-direction: column;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px -10px #000000;
+    box-shadow: 2px 2px 15px -10px #000000;
 }
 
 
@@ -171,7 +170,7 @@
 
 .type_2_item_name {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .type_2_cpus {
@@ -188,6 +187,7 @@
     font-size: 15px;
     width: 450px;
     padding-top: 10px;
+    font-weight: 400;
 }
 
 .type_2_price{
@@ -198,7 +198,7 @@
 /* --------------------------------------- */
 
 .store_studio_display {
-    box-shadow: 5px 5px 15px -10px #000000;
+    box-shadow: 2px 2px 15px -10px #000000;
     border-radius: 10px;
     margin-bottom: 5em;
     width: 1100px;
@@ -274,24 +274,23 @@
 .store_ipad {
     margin: auto;
     padding-bottom: 4em;
-    max-width: 1100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .item_type_3 {
-    width: 520px;
+    width: 350px;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px -10px #000000;
+    box-shadow: 2px 2px 15px -10px #000000;
 }
 
 .type_3_image img {
-    height: 400px;
+    height: 250px;
 }
 
 .type_3_info {
@@ -308,10 +307,10 @@
 
 .type_3_item_name {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .type_3_price {
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 20px;
 }

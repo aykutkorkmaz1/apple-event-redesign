@@ -10,6 +10,7 @@ import iphonese from '../images/iphone-page/compare-images/iphone-se-midnight.pn
 import mbp_16_2021 from '../images/store-page/mbp-16-2021.png';
 import mbp_16_2020 from '../images/store-page/mbp-16-2020.png';
 import studio_display from '../images/store-page/studio-display.png';
+import ipad from '../images/store-page/ipad.png';
 import ipad_air from '../images/store-page/ipad-air.png';
 import ipad_pro from '../images/store-page/ipad-pro.png';
 import m1_pro_logo from '../images/store-page/m1-pro.png';
@@ -206,6 +207,28 @@ export default function Store () {
                             </div>
                             <p className="type_3_price">
                                 Starting from $1299
+                            </p>
+                        </div>
+                        <div className="store_buy_btn">
+                            <p>Buy</p>
+                        </div>
+                    </div>
+
+                    <div className="item_type_3">
+                        <div className="type_3_image"> <img src={ipad} /> </div>
+                        <div className="type_3_info">
+                        <p className="new_indicator"> New </p>
+                            <p className="type_3_item_name">iPad</p>
+                            <div className="storage_list">
+                                <p>64GB</p>
+                                <p>128GB</p>
+                            </div>
+                            <div className="storage_list">
+                                <p>Wi-Fi</p>
+                                <p>Wi-Fi + Cellular</p>
+                            </div>
+                            <p className="type_3_price">
+                                Starting from $329
                             </p>
                         </div>
                         <div className="store_buy_btn">

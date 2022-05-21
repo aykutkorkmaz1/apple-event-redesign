@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap");
+
+:root {
+
+}
+
+/* ------------------ List ------------------ */
+.page-ipad-content {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.ipad-model-list {
+  width: 35em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto auto;
+  padding-top: 44px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 20px 10px;
+  background-color:#fff;
+  border-radius: 3px;
+
+  transition: 0.1s;
+}
+
+.list-item:hover {
+  background-color:#f5a80e;
+  filter: invert(100%);
+  transition: 0.3s;
+}
+
+.model-list-tablet-name {
+  font-size: 13px;
+  font-weight: 400;
+  color: #000;
+  transition: 0.1s;
+}
+
+.list-item img {
+  transition: 0.1s;
+  height: 60px;
+  filter: invert(0);
+}
+
+/* ------------------ universal presentation properties ------------------ */
+.ipad-page-slogan {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 500px;
+}
+
+.ipad-blue-button {
+  margin: auto;
+  background-color: #0071e3;
+  width: 170px;
+  height: 30px;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.ipad-blue-button span {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.align-items {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------------------- iPad Pro ----------------- */
+
+.page-ipadpro {
+  width: 100%;
+  height: 40em;
+  padding-top: 3em;
+  margin-bottom: 1em;
+
+  background-color: #FBFBFD;
+  background-image: url(../images/iphone-page/iphone13pro-list.jpg);
+  background-repeat: no-repeat;
+  background-size: 50em;
+  background-position: 50% 18em;
+}
+
+.page-ipadpro img {
+  width: 18em;
+  margin: auto;
+}
+/* ------------------- iPad Air ----------------- */
+
+.page-ipadair {
+  margin-top: 2em;
+  width: 100%;
+  height: 40em;
+  padding-top: 3em;
+
+  background-color: #FBFBFD;
+  background-image: url(../images/iphone-page/iphone13-list.jpg);
+  background-repeat: no-repeat;
+  background-size: 50em;
+  background-position: 50% 18em;
+}
+
+.page-ipadair img {
+  width: 15em;
+  margin: auto;
+}
+/* --------------------- universal comparison properties ------------------*/
+h2 {
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+.ipad-comparison-divider {
+    margin-top: 2em;
+    width: auto;
+    border-radius: 20px;
+    border: 0.5px solid #60606043;
+}
+
+.ipad-comparison-area {
+    max-width: fit-content;
+  margin: auto;
+  display: flex; 
+  flex-direction: row;
+}
+
+.ipad-comparison-main-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ipad-comparison-phone-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.ipad-comparison-tablet {
+  margin: auto;
+  width: fit-content;
+  height: 200px;
+}
+
+.ipad-comparison-logo {
+  padding-top: 5px;
+  padding-bottom: 7px;
+  width: fit-content;
+  height: 25px;
+  margin: auto;
+}
+
+.ipad-comparison-slogan {
+  width: fit-content;
+  font-size: 18px;
+  font-weight: 500;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.ipad-comparison-blue-button {
+  background-color: #0071e3;
+  width: 130px;
+  height: 30px;
+  border-radius: 50px;
+  align-items: center;
+  margin: auto;
+}
+
+.ipad-comparison-blue-button span {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.ipad-comparison-features {
+  display: flex;
+  flex-direction: column;
+}
+
+.ipad-comparison-item {
+    width: 200px;
+    height: 70px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.ipad-comparison-featured-img {
+  height: 35px;
+  width: fit-content;
+  margin: auto;
+}
+
+.ipad-comparison-main {
+  padding-top: 5px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ipad-comparison-sub {
+  padding-top: 5px;
+  color: #5c5c5c;
+  font-size: 13px;
+}
