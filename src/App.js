@@ -17,7 +17,7 @@ function App() {
       <Navbar />
 
       <div className="main-iphone13pro">
-          <div className="align-items">
+          <div className="page-main-align-items">
             <img src={iphone13pro_logo} />
             <span className="main-page-slogan">Oh. So. Pro.</span>
             <span className="main-page-desc">Your new portable photography machine.</span>
@@ -28,7 +28,7 @@ function App() {
       </div>
 
       <div className="main-iphonese">
-          <div className="align-items">
+          <div className="page-main-align-items">
             <img src={iphonese_logo} />
             <span className="main-page-desc">
               Hercules in your pocket.
@@ -40,7 +40,7 @@ function App() {
       </div>
 
       <div className="main-macbookpro">
-          <div className="align-items">
+          <div className="page-main-align-items">
             <img src={macbookpro_logo} />
             <span className="main-page-slogan">Supercharged for pros.</span>
             <span className="main-page-desc">
@@ -53,7 +53,7 @@ function App() {
       </div>
 
       <div className="main-ipad">
-          <div className="align-items">
+          <div className="page-main-align-items">
             <img src={ipad_logo} />
             <span className="main-page-slogan-ipad">Light. Bright. Full of might.</span>
             <span className="main-page-desc-ipad">
@@ -63,12 +63,6 @@ function App() {
               <span>Learn more</span>
             </div>
           </div>
-      </div>
-
-      <div className='main-box-2'>
-        <div className='main-mac-display'>
-
-        </div>
       </div>
 
     <Footer />      

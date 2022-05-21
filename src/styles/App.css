@@ -14,6 +14,11 @@
   background-color: #FBFBFD;
 }
 
+.page-main-align-items {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-iphone13pro {
   background-color: var(--main-box-bg);
   background-image: url(../images/iphone_13_pro.png);

@@ -120,12 +120,16 @@ export default function Footer() {
                     <span className="footer-group-link">Contact Apple</span>
                 </div>
             </div>
-
-            <div className="footer-call-info">For any questions, call 1-800-MY-APPLE.</div>
+            
+            <div className="footer-call-info">
+                <span>For any questions, call 1-800-MY-APPLE.</span>
+                <span>Website made by Aykut Korkmaz.</span>
+            </div> 
 
             <div className="footer-border"></div>
+            
             <div className="footer-copyright-country">
-                <span>Copyright © 2022 Apple Inc. All rights reserved.</span>
+                <span> 2022 Apple Inc. Copyright © All rights reserved.</span>
                 <span>United States</span>
             </div>
         </div>

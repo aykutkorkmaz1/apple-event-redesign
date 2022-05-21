@@ -1,1 +1,7 @@
-<svg enable-background="new 0 0 23 54" height="54" viewBox="0 0 23 54" width="23" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h23v54h-23z" fill="none"/><path clip-rule="evenodd" d="m2.3 17c-1.2703 0-2.3 1.0308-2.3 2.3023v28.3953c0 1.2716 1.0297 2.3024 2.3 2.3024h18.4c1.2703 0 2.3-1.0308 2.3-2.3023v-28.3954c0-1.2715-1.0297-2.3023-2.3-2.3023zm18.7 30.2564c0 .4107-.3272.7436-.7308.7436h-17.5384c-.4036 0-.7308-.3329-.7308-.7436v-27.5128c0-.4107.3272-.7436.7308-.7436h17.5385c.4035 0 .7307.3329.7307.7436z" fill="#f5f5f7" fill-rule="evenodd"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="23px" height="54px" viewBox="0 0 23 54" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="ipad_mini">
+    <path d="M0 0L23 0L23 54L0 54L0 0Z" id="Shape" fill="none" stroke="none" />
+    <path d="M2.3 17C1.0297 17 0 18.0308 0 19.3023L0 47.6976C0 48.9692 1.0297 50 2.3 50L20.7 50C21.9703 50 23 48.9692 23 47.6977L23 19.3023C23 18.0308 21.9703 17 20.7 17L2.3 17ZM21 47.2564C21 47.6671 20.6728 48 20.2692 48L2.7308 48C2.3272 48 2 47.6671 2 47.2564L2 19.7436C2 19.3329 2.3272 19 2.7308 19L20.2693 19C20.6728 19 21 19.3329 21 19.7436L21 47.2564Z" id="Shape" fill="#000000" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>

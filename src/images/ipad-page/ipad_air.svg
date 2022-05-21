@@ -1,1 +1,25 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 54"><defs><style>.cls-1{fill:#f5f5f7;}</style></defs><title>ipadair_light_large</title><path class="cls-1" d="M27,8a3,3,0,0,1,3,3V48a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V11A3,3,0,0,1,3,8Zm1,3a.94.94,0,0,0-1-1H3a.94.94,0,0,0-1,1V48a.94.94,0,0,0,1,1H27a.94.94,0,0,0,1-1Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="72px" height="121px" viewBox="0 0 72 121" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" color-interpolation-filters="sRGB" />
+    </filter>
+    <path d="M0 0L72 0L72 121L0 121L0 0L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="ipad_air">
+    <g id="ipad_air" filter="url(#filter_1)">
+      <path d="M0 0L72 0L72 121L0 121L0 0L0 0Z" id="Background" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd" stroke="none" />
+      <g id="Mask-group">
+        <path d="M0 0L72 0L72 121L0 121L0 0L0 0Z" id="path_1" fill="none" stroke="none" />
+        <g clip-path="url(#mask_1)">
+          <g id="Group" transform="translate(0 17.925903)" filter="url(#filter_1)">
+            <path d="M64.8 0C68.7765 0 72 3.00963 72 6.72228L72 89.6297C72 93.3422 68.7765 96.3518 64.8 96.3518L7.2 96.3518C3.22355 96.3518 3.04713e-13 93.3422 3.04713e-13 89.6297L3.04713e-13 6.72228C-1.14441e-06 3.00963 3.22355 0 7.2 0L64.8 0L64.8 0ZM67.2 6.72226C67.2429 6.11654 67.0039 5.52303 66.5442 5.09384C66.0844 4.66466 65.4488 4.44141 64.8 4.48146L7.20003 4.48146C6.5513 4.44141 5.9156 4.66466 5.45587 5.09384C4.99615 5.52303 4.75711 6.11654 4.80003 6.72226L4.80003 89.6297C4.75711 90.2354 4.99615 90.8289 5.45587 91.2581C5.9156 91.6873 6.5513 91.9105 7.20003 91.8703L64.8 91.8703C65.4488 91.9105 66.0844 91.6873 66.5442 91.2581C67.0039 90.8289 67.2429 90.2354 67.2 89.6297L67.2 6.72226L67.2 6.72226Z" id="Shape" fill="#F5F5F7" fill-rule="evenodd" stroke="none" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

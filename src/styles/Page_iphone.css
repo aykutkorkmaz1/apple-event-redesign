@@ -55,7 +55,7 @@
 .iphone-page-slogan {
   margin-top: 5px;
   margin-bottom: 20px;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 500px;
 }
 
@@ -75,7 +75,7 @@
   line-height: 30px;
 }
 
-.align-items {
+.page-iphone-align-items {
   display: flex;
   flex-direction: column;
 }
@@ -87,6 +87,8 @@
   height: 40em;
   padding-top: 3em;
   margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
 
   background-color: #FBFBFD;
   background-image: url(../images/iphone-page/iphone13pro-list.jpg);

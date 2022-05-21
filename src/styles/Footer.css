@@ -19,10 +19,12 @@
 .footer-border {
   border-radius: 20px;
   border: 0.5px solid #60606043;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-links {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: row;
 }
@@ -50,10 +52,29 @@
 }
 
 .footer-call-info {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: fit-content;
+  width: 1000px;
+  display: inline-block;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-call-info span {
   font-size: 12px;
+  font-weight: 400;
+  color: #606060;
+}
+
+.footer-copyright-country {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-copyright-country span {
+  font-size: 12px;
+  font-weight: 400;
   color: #606060;
 }
 
@@ -63,12 +84,4 @@
 
 .footer-copyright-country span:nth-child(2) {
   float: right;
-}
-
-.footer-copyright-country span {
-  font-size: 12px;
-  font-weight: 400;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #606060;
 }

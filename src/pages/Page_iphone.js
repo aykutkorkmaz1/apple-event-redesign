@@ -58,7 +58,7 @@ export default function Iphone () {
             </div>
 
             <div className="page-iphone13pro">
-                <div className="align-items">
+                <div className="page-iphone-align-items">
                     <img src={iphone13pro_logo} />
                     <span className="iphone-page-slogan">Oh. So. Pro.</span>
                     <div className='iphone-blue-button'>
@@ -68,7 +68,7 @@ export default function Iphone () {
             </div>
 
             <div className="page-iphone13">
-                <div className="align-items">
+                <div className="page-iphone-align-items">
                     <img src={iphone13_logo} />
                     <span className="iphone-page-slogan">Your new superpower.</span>
                     <div className='iphone-blue-button'>
@@ -78,7 +78,7 @@ export default function Iphone () {
             </div>
 
             <div className="page-iphonese">
-                <div className="align-items">
+                <div className="page-iphone-align-items">
                     <img src={iphonese_logo} />
                     <span className="iphone-page-slogan">Hercules in your pocket.</span>
                     <div className='iphone-blue-button'>

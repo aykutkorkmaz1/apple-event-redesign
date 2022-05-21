@@ -14,7 +14,7 @@
 }
 
 .ipad-model-list {
-  width: 35em;
+  width: 30em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -22,17 +22,23 @@
   padding-top: 44px;
 }
 
-.list-item {
+.ipad-list-item {
   display: flex;
   flex-direction: column;
   padding: 10px 10px 20px 10px;
   background-color:#fff;
   border-radius: 3px;
-
+  
   transition: 0.1s;
 }
 
-.list-item:hover {
+.ipad-list-item img {
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.ipad-list-item:hover {
   background-color:#f5a80e;
   filter: invert(100%);
   transition: 0.3s;
@@ -45,7 +51,7 @@
   transition: 0.1s;
 }
 
-.list-item img {
+.ipad-list-item img {
   transition: 0.1s;
   height: 60px;
   filter: invert(0);
@@ -55,7 +61,7 @@
 .ipad-page-slogan {
   margin-top: 5px;
   margin-bottom: 20px;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 500px;
 }
 
@@ -75,7 +81,7 @@
   line-height: 30px;
 }
 
-.align-items {
+.page-ipad-align-items {
   display: flex;
   flex-direction: column;
 }
@@ -87,16 +93,18 @@
   height: 40em;
   padding-top: 3em;
   margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
 
   background-color: #FBFBFD;
-  background-image: url(../images/iphone-page/iphone13pro-list.jpg);
+  background-image: url(../images/ipad-page/ipad_pro.jpeg);
   background-repeat: no-repeat;
-  background-size: 50em;
-  background-position: 50% 18em;
+  background-size: 40em;
+  background-position: 50% 10em;
 }
 
 .page-ipadpro img {
-  width: 18em;
+  width: 12em;
   margin: auto;
 }
 /* ------------------- iPad Air ----------------- */
@@ -108,14 +116,14 @@
   padding-top: 3em;
 
   background-color: #FBFBFD;
-  background-image: url(../images/iphone-page/iphone13-list.jpg);
+  background-image: url(../images/ipad-page/ipad_air.png);
   background-repeat: no-repeat;
-  background-size: 50em;
-  background-position: 50% 18em;
+  background-size: 35em;
+  background-position: 50% 20em;
 }
 
 .page-ipadair img {
-  width: 15em;
+  width: 12em;
   margin: auto;
 }
 /* --------------------- universal comparison properties ------------------*/

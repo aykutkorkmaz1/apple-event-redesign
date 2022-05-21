@@ -37,19 +37,19 @@ export default function Ipad () {
             <Navbar />
 
             <div className="ipad-model-list">
-                <div className="list-item ipadpro">
+                <div className="ipad-list-item ipadpro">
                     <img src={list_ipadpro} />
                     <span className="model-list-tablet-name">iPad Pro</span>
                 </div>
-                <div className="list-item ipadair">
+                <div className="ipad-list-item ipadair">
                     <img src={list_ipadair} />
                     <span className="model-list-tablet-name">iPad Air</span>
                 </div>
-                <div className="list-item ipad">
+                <div className="ipad-list-item ipad">
                     <img src={list_ipad} />
                     <span className="model-list-tablet-name">iPad</span>
                 </div>
-                <div className="list-item ipadmini">
+                <div className="ipad-list-item ipadmini">
                     <img src={list_ipadmini} />
                     <span className="model-list-tablet-name">iPad Mini</span>
                 </div>
@@ -58,7 +58,7 @@ export default function Ipad () {
             <div className="page-ipadpro">
                 <div className="page-ipad-align-items">
                     <img src={ipadpro_logo} />
-                    <span className="ipad-page-slogan">The ultimate <br/> iPad experience.</span>
+                    <span className="ipad-page-slogan">The ultimate iPad experience.</span>
                     <div className='ipad-blue-button'>
                         <span>Learn more</span>
                     </div>
@@ -66,7 +66,7 @@ export default function Ipad () {
             </div>
 
             <div className="page-ipadair">
-                <div className="align-items">
+                <div className="page-ipad-align-items">
                     <img src={ipadair_logo} />
                     <span className="ipad-page-slogan">Light. Bright. <br/> Full of might.</span>
                     <div className='ipad-blue-button'>
