@@ -124,28 +124,25 @@ export default function Iphone () {
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img" src={chip_a15} />
-                            <span className="comparison-main">
-                                A15 Bionic chip
-                            </span>
                             <span className="comparison-sub">
-                                5-core GPU
+                                A15 Bionic chip
                             </span>
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img" src={cellular_5g} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 Superfast 5G cellular
                             </span>
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img exceptional-battery" src={battery} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 Up to 28 hours video playback
                             </span>
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img" src={face_id} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 Face ID
                             </span>
                         </div>
@@ -184,28 +181,25 @@ export default function Iphone () {
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img" src={chip_a15} />
-                            <span className="comparison-main">
-                                A15 Bionic chip
-                            </span>
                             <span className="comparison-sub">
-                                4-core GPU
+                                A15 Bionic chip
                             </span>
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img" src={cellular_5g} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 Superfast 5G cellular
                             </span>
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img exceptional-battery" src={battery} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 Up to 19 hours video playback
                             </span>
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img" src={face_id} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 Face ID
                             </span>
                         </div>
@@ -244,25 +238,25 @@ export default function Iphone () {
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img" src={chip_a14} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 A14 Bionic chip
                             </span>
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img" src={cellular_5g} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 Superfast 5G cellular
                             </span>
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img exceptional-battery" src={battery} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 Up to 27 hours video playback
                             </span>
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img" src={face_id} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 Face ID
                             </span>
                         </div>
@@ -301,25 +295,25 @@ export default function Iphone () {
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img" src={chip_a15} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 A15 Bionic chip
                             </span>
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img" src={cellular_5g} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 5G cellular
                             </span>
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img exceptional-battery" src={battery} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 Up to 17 hours video playback
                             </span>
                         </div>
                         <div className="comparison-item">
                             <img className="comparison-featured-img" src={touch_id} />
-                            <span className="comparison-main">
+                            <span className="comparison-sub">
                                 Touch ID
                             </span>
                         </div>
