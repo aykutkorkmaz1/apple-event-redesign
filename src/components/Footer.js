@@ -49,6 +49,12 @@ export default function Footer() {
                     <span className="footer-group-link">Accessories</span>
                     <span className="footer-group-link">Gift Cards</span>
                 </div>
+
+                    <div className="footer-item-group-responsive">
+                        <span className="footer-group-header-responsive">Shop and Learn</span>
+                    </div>
+                    <div className="footer-border-responsive"></div>
+
                 <div className="footer-item-group">
                     <span className="footer-group-header">Services</span>
                     <span className="footer-group-link">Apple Music</span>
@@ -63,6 +69,12 @@ export default function Footer() {
                     <span className="footer-group-link">Apple Podcasts</span>
                     <span className="footer-group-link">App Store</span>
                 </div>
+
+                    <div className="footer-item-group-responsive">
+                        <span className="footer-group-header-responsive">Services</span>
+                    </div>
+                    <div className="footer-border-responsive"></div>
+
                 <div className="footer-item-group">
                     <span className="footer-group-header">Apple Store</span>
                     <span className="footer-group-link">Find a Store</span>
@@ -81,6 +93,16 @@ export default function Footer() {
                     <span className="footer-group-link">Apple Store Account</span>
                     <span className="footer-group-link">iCloud.com</span>
                 </div>
+
+                    <div className="footer-item-group-responsive">
+                        <span className="footer-group-header-responsive">Apple Store</span>
+                    </div>
+                    <div className="footer-border-responsive"></div>
+                    <div className="footer-item-group-responsive">
+                        <span className="footer-group-header-responsive">Account</span>
+                    </div>
+                    <div className="footer-border-responsive"></div>
+
                 <div className="footer-item-group">
                     <span className="footer-group-header">For Business</span>
                     <span className="footer-group-link">Apple and Business</span>
@@ -100,6 +122,24 @@ export default function Footer() {
                     <span className="footer-group-link">Shop for Government</span>
                     <span className="footer-group-link">Shop for Veteran and Military</span>
                 </div>
+
+                    <div className="footer-item-group-responsive">
+                        <span className="footer-group-header-responsive">For Business</span>
+                    </div>
+                    <div className="footer-border-responsive"></div>
+                    <div className="footer-item-group-responsive">
+                        <span className="footer-group-header-responsive">For Education</span>
+                    </div>
+                    <div className="footer-border-responsive"></div>
+                    <div className="footer-item-group-responsive">
+                        <span className="footer-group-header-responsive">For Healthcare</span>
+                    </div>
+                    <div className="footer-border-responsive"></div>
+                    <div className="footer-item-group-responsive">
+                        <span className="footer-group-header-responsive">For Government</span>
+                    </div>
+                    <div className="footer-border-responsive"></div>
+
                 <div className="footer-item-group">
                     <span className="footer-group-header">Apple Values</span>
                     <span className="footer-group-link">Accessibility</span>
@@ -119,6 +159,15 @@ export default function Footer() {
                     <span className="footer-group-link">Events</span>
                     <span className="footer-group-link">Contact Apple</span>
                 </div>
+
+                    <div className="footer-item-group-responsive">
+                        <span className="footer-group-header-responsive">Apple Values</span>
+                    </div>
+                    <div className="footer-border-responsive"></div>
+                    <div className="footer-item-group-responsive">
+                        <span className="footer-group-header-responsive">About Apple</span>
+                    </div>
+
             </div>
             
             <div className="footer-call-info">

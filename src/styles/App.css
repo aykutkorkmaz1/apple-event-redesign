@@ -11,7 +11,7 @@
 .App {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  background-color: #FBFBFD;
+  background-color: #ffffff;
   z-index: 10;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .main-iphone13pro {
-  background-color: var(--main-box-bg);
+  background-color: #FBFBFD;
   background-image: url(../images/iphone_13_pro.png);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -95,14 +95,12 @@
   background-size: 60em;
   width: auto;
   height: 45em;
-  margin-top: 5em;
-  margin-bottom: 5em;
+  padding-top: 5em;
 }
 
 .main-macbookpro img {
   width: 280px;
   margin: auto;
-  padding-top: 5em;
   padding-bottom: 5px;
 }
 
@@ -119,25 +117,10 @@
   padding-top: 5em;
 }
 
-.main-blue-button-ipad {
-  margin: auto;
-  background-color: #0071e3;
-  width: 200px;
-  height: 40px;
-  border-radius: 50px;
-  align-items: center;
-}
-
-.main-blue-button-ipad span {
-  color: #fff;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 40px;
-}
-
 .main-ipad img {
   width: 200px;
   margin: auto;
+  padding-bottom: 5px;
 }
 
 .main-page-slogan-ipad {
@@ -154,4 +137,74 @@
   font-weight: var(--desc-font-weight); 
   padding-bottom: 20px;
   padding-top: 10px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .main-iphone13pro {
+    width: 100%;
+    background-image: url(../images/iphone_13_pro_responsive.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 15em;
+    margin-bottom: 1em;
+  }
+
+  .main-iphone13pro img {
+    width: 230px;
+  }
+
+  .main-page-slogan {
+    font-size: 20px;
+  }
+
+  .main-page-desc {
+    max-width: 80%;
+    font-size: 20px;
+  }
+
+  .main-iphonese {
+    width: 100%;
+    background-image: url(../images/iphone_se_responsive.png);
+    background-size: 40em;
+    background-position: 1em 15em;
+    height: 40em;
+    margin-bottom: 1em;
+  }
+
+  .main-iphonese img {
+    width: 190px;
+  }
+
+  .main-macbookpro {
+    width: 100%;
+    background-color: #F6F6F4;
+    background-image: url(../images/macbook_pro_responsive.jpeg);
+    background-size: 50em;
+    background-position: -7em 10em;
+    margin: 0 0 1em 0;
+  }
+
+  .main-macbookpro img {
+    width: 220px;
+  }
+
+  .main-ipad {
+    background-image: url(../images/ipad-main-responsive.png);
+    background-position: bottom center;
+    width: 100%;
+    height: 40em;
+  }
+
+  .main-ipad img {
+    width: 160px;
+  }
+
+  .main-page-slogan-ipad, .main-page-desc-ipad{
+    font-size: 20px;
+  }
+
+  .main-page-desc-ipad {
+    padding-top: 1em;
+  }
 }

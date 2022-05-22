@@ -74,6 +74,10 @@ Link {
   display: none;
 }
 
+.menu-close {
+  display: none;
+}
+
 @media screen and (max-width: 1000px) {
   .store, .mac, .ipad, .iphone, .watch, .airpods, .tvhome, .onlyonapple, .accessories, .support, .search {
     display: none;
