@@ -12,6 +12,7 @@
   text-align: center;
   font-family: "Roboto", sans-serif;
   background-color: #FBFBFD;
+  z-index: 10;
 }
 
 .page-main-align-items {

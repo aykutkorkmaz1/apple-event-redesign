@@ -11,7 +11,7 @@ Link {
   display: none;
 }
 
-.navbar-content {
+.navbar {
   z-index: 10;
   position: fixed;
   width: 100%;
@@ -23,7 +23,7 @@ Link {
   align-items: center;
 }
 
-.navbar {
+.navbar-content {
   margin: auto;
   list-style: none;
   width: 100%;
@@ -64,22 +64,118 @@ Link {
   background-repeat: no-repeat;
 }
 
+/* RESPONSIVE */
+
+.navbar-responsive {
+  display: none;
+}
+
+.menu-btn {
+  display: none;
+}
+
 @media screen and (max-width: 1000px) {
   .store, .mac, .ipad, .iphone, .watch, .airpods, .tvhome, .onlyonapple, .accessories, .support, .search {
     display: none;
   }
 
   .navbar {
-    padding-left: 0;
-    padding-right: 0;
+    position: relative;
     justify-content: unset;
+    height: 44px;
   }
 
   .apple-logo-nav {
-    position: fixed;
+    text-align: fixed;
   }
 
   .bag {
-    float: right;
+    position: absolute;
+    width: auto;
+    height: 44px;
+    right: 0;
+  }
+
+  /* RESPONSIVE NAVBAR */
+
+  .navbar-responsive-divider {
+    color: #444444;
+    border-radius: 20px;
+    border: 0.5px solid;
+    width: 100%;
+    margin: auto;
+  }
+
+  .navbar-responsive {
+    border-top: 1px solid #444444;
+    padding-top: 20px;
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(27, 27, 27);
+    z-index: 5;
+  }
+
+  .navbar-item-responsive {
+    text-align: left;
+    opacity: 80%;
+    height: 44px;
+    width: 100%;
+    color: rgb(190, 190, 190);
+    display: inline-block;
+    transition: 0.3s;
+  }
+
+  .navbar-item-responsive:hover {
+    opacity: 100%;
+  transition: 0.3s;
+  }
+
+  .navbar-responsive-list {
+    margin: auto;
+  list-style: none;
+  width: 90%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  }
+
+  .menu-btn {
+    position: absolute;
+    left: 0;
+    width: 44px;
+    height: 20px;
+    line-height: 44px;
+    display: inline;
+    cursor: pointer;
+  }
+
+  .navbar-responsive-search-box {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #444444;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .navbar-responsive-search-box img {
+    height: 50px;
+    padding-left: 15px;
+  }
+
+  .navbar-responsive-search-box input {
+    background-color: transparent;
+    width: 85%;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin: auto 0 auto 0;
+    padding-left: 15px;
+  }
+
+  .navbar-responsive-search-box input:focus {
+    outline: none;
   }
 }
