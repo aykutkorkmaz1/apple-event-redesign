@@ -80,9 +80,10 @@ Link {
   }
 
   .navbar {
-    position: relative;
+    position: fixed;
     justify-content: unset;
     height: 44px;
+    border-bottom: 1px solid #444444;
   }
 
   .apple-logo-nav {
@@ -107,13 +108,17 @@ Link {
   }
 
   .navbar-responsive {
-    border-top: 1px solid #444444;
-    padding-top: 20px;
-    display: block;
+    position: fixed;
+    display: none;
+    padding-top: 70px;
     width: 100%;
     min-height: 100%;
     background-color: rgb(27, 27, 27);
     z-index: 5;
+  }
+
+  .enable-navbar {
+    display: block;
   }
 
   .navbar-item-responsive {
@@ -128,16 +133,16 @@ Link {
 
   .navbar-item-responsive:hover {
     opacity: 100%;
-  transition: 0.3s;
+    transition: 0.3s;
   }
 
   .navbar-responsive-list {
     margin: auto;
-  list-style: none;
-  width: 90%;
-  justify-content: space-between;
-  display: flex;
-  flex-direction: column;
+    list-style: none;
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
   }
 
   .menu-btn {
@@ -150,17 +155,36 @@ Link {
     cursor: pointer;
   }
 
+  .disable-menu-btn {
+    display: none;
+  }
+
+  .menu-close {
+    display: none;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    width: 44px;
+    height: 20px;
+    line-height: 44px;
+    cursor: pointer;
+  }
+
+  .enable-menu-close {
+    display: block;
+  }
+
   .navbar-responsive-search-box {
     display: flex;
     width: 100%;
     margin-bottom: 20px;
     background-color: #444444;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
   }
 
   .navbar-responsive-search-box img {
-    height: 50px;
+    height: 40px;
     padding-left: 15px;
   }
 

@@ -29,17 +29,36 @@ import search from '../images/apple_nav/search-box-icon.svg';
 
 
 function openResponsive () {
-    alert('dd');
+    let open = document.getElementsByClassName('menu-btn')[0];
+    let close = document.getElementsByClassName('menu-close')[0];
+    let menu = document.getElementsByClassName('navbar-responsive')[0];
+
+    open.addEventListener('click', showMenu);
+    close.addEventListener('click', closeMenu);
+
+    function showMenu () {
+        menu.classList.toggle('enable-navbar');
+        open.classList.toggle('disable-menu-btn');
+        close.classList.toggle('enable-menu-close');
+    }
+
+    function closeMenu () {
+        menu.classList.remove('enable-navbar');
+        open.classList.remove('disable-menu-btn');
+        close.classList.remove('enable-menu-close');
+    }
 }
 
 export default function Navbar() {
     return (
         <div className="navbars">
-
             <div className="navbar">
                 <ul className="navbar-content">
-                    <li className="navbar-item menu-btn" onClick={openResponsive}>
+                    <li onClick={openResponsive} className="navbar-item menu-btn">
                         <img src={menu_btn} />
+                    </li>
+                    <li onClick={openResponsive} className="navbar-item menu-close">
+                        <p>Close</p>
                     </li>
                     <Link to="/">
                         <li className="navbar-item apple-logo-nav"> <img src={apple_logo} /> </li>
