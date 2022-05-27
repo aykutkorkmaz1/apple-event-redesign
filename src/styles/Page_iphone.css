@@ -249,3 +249,62 @@ h2 {
   color: #5c5c5c;
   font-size: 13px;
 }
+
+@media screen and (max-width: 500px) {
+
+  .iphone-model-list {
+    width: 30em;
+  }
+
+  .list-item:hover {
+    background-color: #fff;
+    filter: none;
+  }
+
+  .list-item img {
+    height: 50px;
+  }
+
+  .iphone-page-slogan {
+    font-size: 24px
+  }
+
+  .page-iphone13pro {
+    background-size: 28em;
+    background-position: 50% 80%;
+    height: 35em;
+  }
+
+  .page-iphone13pro img {
+    width: 15em;
+  }
+  
+  .page-iphone13 {
+    background-size: 28em;
+    background-position: 50% 80%;
+    height: 35em;
+  }
+  
+  .page-iphone13 img {
+    width: 12em;
+  }
+  
+  .page-iphonese {
+    background-size: 20em;
+    background-position: 50% 80%;
+    height: 35em;
+  }
+
+  .page-iphonese img {
+    width: 12em;
+  }
+
+  .iphone-comparison-area {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .iphone-comparison-main-container {
+    padding-bottom: 50px;
+  }
+}

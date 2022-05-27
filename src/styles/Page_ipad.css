@@ -140,7 +140,7 @@ h2 {
 }
 
 .ipad-comparison-area {
-    max-width: fit-content;
+  max-width: fit-content;
   margin: auto;
   display: flex; 
   flex-direction: row;
@@ -229,4 +229,52 @@ h2 {
   padding-top: 5px;
   color: #5c5c5c;
   font-size: 13px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .ipad-model-list {
+    width: 25em;
+  }
+
+  .ipad-list-item:hover {
+    background-color: #fff;
+    filter: none;
+  }
+
+  .ipad-list-item img {
+    height: 50px;
+  }
+
+  .ipad-page-slogan {
+    font-size: 24px;
+  }
+
+  .page-ipadpro {
+    background-position: 50% 70%;
+    background-size: 30em;
+  }
+
+  .page-ipadpro img {
+    width: 10em;
+  }
+
+  .page-ipadair {
+    background-position: 50% 100%;
+    background-size: 25em;
+  }
+
+  .page-ipadair img {
+    width: 10em;
+  }
+
+  .ipad-comparison-area {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .ipad-comparison-main-container {
+    padding-bottom: 40px;
+  }
+
 }

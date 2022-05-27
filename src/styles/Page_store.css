@@ -28,7 +28,6 @@
 
 
 .most_loved_products {
-    
     padding-bottom: 4em;
     max-width: 1100px;
     display: flex;
@@ -313,4 +312,153 @@
 .type_3_price {
     font-size: 16px;
     padding-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .store_border {
+        width: 100%;
+    }
+
+    .store_logo img {
+        float: none;
+        margin: auto;
+        width: 7em;
+    }
+
+    .most_loved_products {
+        width: 100%;
+        float: none;
+    }
+
+    .sector-header {
+        font-size: 22px;
+        margin: 30px auto 30px auto;
+        text-align: center;
+    }
+
+    .item_type_1 {
+        width: 80%;
+        margin-bottom: 3em;
+    }
+
+    .item_type_1 img {
+        height: 250px;
+    }
+
+    .type_1_item_name {
+        font-size: 20px;
+    }
+
+    .storage_list p {
+        font-size: 15px;
+    }
+
+    .store_buy_btn {
+        background-color: #0071E3;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .store_buy_btn p {
+        color: #fff;
+    }
+
+    .store_buy_btn:hover {
+        background-color: #0071E3;
+    }
+
+    .store_macbookpro {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .item_type_2 {
+        width: 90%;
+        margin: auto auto 40px auto;
+    }
+
+    .type_2_image {
+        height: 210px;
+    }
+
+    .type_2_image img {
+        height: 200px;
+    }
+
+    .type_2_item_name {
+        font-size: 20px;
+    }
+
+    .type_2_cpus img{
+        width: 45px;
+    }
+
+    .type_2_specs p{
+        width: 100%;
+    }
+
+    .store_studio_display {
+        width: 90%;
+        margin: 0 auto 40px auto;
+    }
+
+    .store_s_dsp_name {
+        width: 90%;
+        text-align: center;
+        padding: 30px auto 0 auto;
+    }
+
+    .s_dsp_main {
+        margin: 20px 20px 0 20px;
+        flex-direction: column;
+    }
+
+    .store_s_dsp_info {
+        width: 100%;
+        padding-left: unset;
+        margin: auto;
+    }
+
+    .store_s_dsp_header {
+        font-size: 30px;
+    }
+
+    .store_s_dsp_p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .store_s_dsp_image {
+        padding-top: 2em;
+        width: 100%;
+    }
+
+    .store_s_dsp_image img {
+        height: 200px;
+    }
+
+    .store_s_dsp_btn {
+        background-color: #0071E3;
+        opacity: 1;
+    }
+
+    .store_ipad {
+        padding-top: 20px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .item_type_3 {
+        width: 80%;
+        margin: 0 auto 3em auto;
+    }
+
+    .type_3_image img {
+        height: 230px;
+    }
+
+    .type_3_item_name {
+        font-size: 20px;
+    }
 }

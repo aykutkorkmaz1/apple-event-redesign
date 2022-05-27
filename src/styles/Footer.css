@@ -146,6 +146,13 @@
 
   .footer-copyright-country {
     width: 100%;
+    flex-direction: column;
+    float: flex-start;
+  }
+
+  .footer-copyright-country span {
+    margin-top: 5px;
+    text-align: left;
   }
 
 }
