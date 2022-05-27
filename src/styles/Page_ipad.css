@@ -234,7 +234,7 @@ h2 {
 @media screen and (max-width: 500px) {
 
   .ipad-model-list {
-    width: 25em;
+    width: 90%;
   }
 
   .ipad-list-item:hover {

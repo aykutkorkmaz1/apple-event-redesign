@@ -253,7 +253,7 @@ h2 {
 @media screen and (max-width: 500px) {
 
   .iphone-model-list {
-    width: 30em;
+    width: 90%;
   }
 
   .list-item:hover {
@@ -305,6 +305,6 @@ h2 {
   }
 
   .iphone-comparison-main-container {
-    padding-bottom: 50px;
+    padding-bottom: 5em;
   }
 }
