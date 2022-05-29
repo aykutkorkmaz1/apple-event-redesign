@@ -22,6 +22,10 @@
   padding-top: 44px;
 }
 
+.selector-ipad {
+  display: none;
+}
+
 .ipad-list-item {
   display: flex;
   flex-direction: column;
@@ -235,15 +239,17 @@ h2 {
 
   .ipad-model-list {
     width: 90%;
+    height: 5em;
   }
 
-  .ipad-list-item:hover {
-    background-color: #fff;
-    filter: none;
+  .selector-ipad {
+    display: block;
+    margin: auto;
+    width: 50%;
   }
 
-  .ipad-list-item img {
-    height: 50px;
+  .ipad-list-item {
+    display: none;
   }
 
   .ipad-page-slogan {
@@ -252,7 +258,7 @@ h2 {
 
   .page-ipadpro {
     background-position: 50% 70%;
-    background-size: 30em;
+    background-size: 100%;
   }
 
   .page-ipadpro img {
@@ -261,7 +267,7 @@ h2 {
 
   .page-ipadair {
     background-position: 50% 100%;
-    background-size: 25em;
+    background-size: 80%;
   }
 
   .page-ipadair img {

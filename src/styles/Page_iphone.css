@@ -22,6 +22,10 @@
   padding-top: 44px;
 }
 
+.selector-iphone {
+  display: none;
+}
+
 .list-item {
   display: flex;
   flex-direction: column;
@@ -254,15 +258,17 @@ h2 {
 
   .iphone-model-list {
     width: 90%;
+    height: 5em;
   }
 
-  .list-item:hover {
-    background-color: #fff;
-    filter: none;
+  .selector-iphone {
+    display: block;
+    margin: auto;
+    width: 50%;
   }
 
-  .list-item img {
-    height: 50px;
+  .list-item{ 
+    display: none;
   }
 
   .iphone-page-slogan {
@@ -270,7 +276,7 @@ h2 {
   }
 
   .page-iphone13pro {
-    background-size: 28em;
+    background-size: 95%;
     background-position: 50% 80%;
     height: 35em;
   }
@@ -280,7 +286,7 @@ h2 {
   }
   
   .page-iphone13 {
-    background-size: 28em;
+    background-size: 95%;
     background-position: 50% 80%;
     height: 35em;
   }
@@ -290,7 +296,7 @@ h2 {
   }
   
   .page-iphonese {
-    background-size: 20em;
+    background-size: 70%;
     background-position: 50% 80%;
     height: 35em;
   }

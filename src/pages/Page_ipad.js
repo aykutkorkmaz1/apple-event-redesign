@@ -1,4 +1,5 @@
 import React from "react";
+import Select from 'react-select';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -30,6 +31,13 @@ import cellular_5g from '../images/ipad-page/compare-images/icon_5g.png';
 import cellular_4g from '../images/ipad-page/compare-images/icon_4g.png';
 import magic_keyboard from '../images/ipad-page/compare-images/icon_magickeyboard.png';
 
+const SelectOptions_iPad = [
+    { value: 'pro', label: 'iPad Pro' },
+    { value: 'air', label: 'iPad Air' },
+    { value: 'normal', label: 'iPad' },
+    { value: 'mini', label: 'iPad Mini' },
+]
+
 export default function Ipad () {
     return (
         <div className="page-ipad-content">
@@ -53,6 +61,9 @@ export default function Ipad () {
                     <img src={list_ipadmini} />
                     <span className="model-list-tablet-name">iPad Mini</span>
                 </div>
+
+                <Select placeholder={'Select iPad'} className="selector-ipad" options={SelectOptions_iPad} />
+
             </div>
 
             <div className="page-ipadpro">

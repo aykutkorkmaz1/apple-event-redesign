@@ -1,4 +1,5 @@
 import React from "react";
+import Select from 'react-select';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -28,6 +29,15 @@ import battery from '../images/iphone-page/compare-images/icon_battery.png';
 import face_id from '../images/iphone-page/compare-images/icon_face_id.png';
 import touch_id from '../images/iphone-page/compare-images/icon_touch_id.png';
 
+const SelectOptions_iPhone = [
+    { value: '13pro', label: 'iPhone 13 Pro' },
+    { value: '13pro_max', label: 'iPhone 13 Pro Max' },
+    { value: '13', label: 'iPhone 13' },
+    { value: '12', label: 'iPhone 12' },
+    { value: '11', label: 'iPhone 11' },
+    { value: 'se', label: 'iPhone SE' },
+]
+
 export default function Iphone () {
     return (
         <div className="page-iphone-content">
@@ -55,6 +65,9 @@ export default function Iphone () {
                     <img src={list_iphone11} />
                     <span className="model-list-phone-name">iPhone 11</span>
                 </div>
+                
+                <Select placeholder={'Select iPhone'} className="selector-iphone" options={SelectOptions_iPhone} />
+
             </div>
 
             <div className="page-iphone13pro">
