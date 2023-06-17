@@ -185,6 +185,13 @@ Link {
     background-color: #444444;
     height: 40px;
     border-radius: 10px;
+    border: 1px transparent;
+    transform: 0.1s;
+  }
+
+  .navbar-responsive-search-box:focus {
+    border: 1px solid #fff;
+    transform: 0.2s;
   }
 
   .navbar-responsive-search-box img {

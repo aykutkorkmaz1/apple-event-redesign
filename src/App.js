@@ -21,9 +21,11 @@ function App() {
             <img src={iphone13pro_logo} />
             <span className="main-page-slogan">Oh. So. Pro.</span>
             <span className="main-page-desc">Your new portable photography machine.</span>
-             <div className='main-blue-button'>
-              <span>Learn more</span>
-            </div>
+             <Link to="/iphone">
+              <div className='main-blue-button'>
+                <span>Learn more</span>
+              </div>
+             </Link>
           </div>
       </div>
 
@@ -55,8 +57,8 @@ function App() {
       <div className="main-ipad">
           <div className="page-main-align-items">
             <img src={ipad_logo} />
-            <span className="main-page-slogan-ipad">Light. Bright. Full of might.</span>
-            <span className="main-page-desc-ipad">
+            <span className="main-page-slogan ipad">Light. Bright. Full of might.</span>
+            <span className="main-page-desc ipad">
             Now powered by Apple M1 chip.
             </span>
              <div className='main-blue-button'>
