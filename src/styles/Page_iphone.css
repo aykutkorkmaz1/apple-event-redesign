@@ -97,7 +97,7 @@
   background-color: #FBFBFD;
   background-image: url(../images/iphone-page/iphone13pro-list.jpg);
   background-repeat: no-repeat;
-  background-size: 50em;
+  background-size: 100%;
   background-position: 50% 18em;
 }
 
@@ -276,7 +276,7 @@ h2 {
   }
 
   .page-iphone13pro {
-    background-size: 95%;
+    background-size: calc(90% - 10px);
     background-position: 50% 80%;
     height: 35em;
   }
@@ -286,7 +286,7 @@ h2 {
   }
   
   .page-iphone13 {
-    background-size: 95%;
+    background-size: calc(90% - 10px);
     background-position: 50% 80%;
     height: 35em;
   }
@@ -296,7 +296,7 @@ h2 {
   }
   
   .page-iphonese {
-    background-size: 70%;
+    background-size: calc(70% - 10px);
     background-position: 50% 80%;
     height: 35em;
   }
